@@ -1,4 +1,4 @@
-# 📡 Data Engineer Job Pipeline
+# Data Engineer Job Pipeline
 
 A Python automation tool that scrapes Data Engineer job postings from **LinkedIn, Indeed, and Dice** every day, scores them against your resume, filters out mismatched roles, and delivers a ranked **interactive dark-themed HTML dashboard** to your inbox — automatically.
 
@@ -6,7 +6,7 @@ Built specifically for a Data Engineer job search: resume-aware scoring, experie
 
 ---
 
-## 🖥️ Dashboard Preview
+## Dashboard Preview
 
 The pipeline generates a self-contained HTML file with:
 - Ranked job table with match scores (0–100)
@@ -19,7 +19,7 @@ The pipeline generates a self-contained HTML file with:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 [1/7] Extract resume skills from resume.pdf
@@ -34,7 +34,7 @@ The pipeline generates a self-contained HTML file with:
 
 ---
 
-## 🎯 Skill Scoring System
+## Skill Scoring System
 
 Skills are extracted from your `resume.pdf` automatically, then matched and weighted:
 
@@ -75,7 +75,7 @@ staff engineer, lead engineer, principal engineer
 
 ---
 
-## 🧩 OPT / Visa Signal Detection
+## OPT / Visa Signal Detection
 
 Each job is tagged with one of four signals:
 
@@ -88,7 +88,7 @@ Each job is tagged with one of four signals:
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 de-job-pipeline/
@@ -103,7 +103,7 @@ de-job-pipeline/
 
 ---
 
-## 🚀 Setup & Usage
+## Setup & Usage
 
 ### 1. Install dependencies
 ```bash
@@ -157,7 +157,7 @@ MIN_SCORE      = 3              # minimum resume match score
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -171,7 +171,7 @@ MIN_SCORE      = 3              # minimum resume match score
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 **Very few / 0 results**
 - LinkedIn and Glassdoor block scrapers. Run from a home network, not a cloud/VPS server.
@@ -194,6 +194,6 @@ MIN_SCORE      = 3              # minimum resume match score
 
 ---
 
-## 📄 License
+## License
 
 MIT — free to use and modify for personal job searching.
