@@ -1,0 +1,30 @@
+# Credentials & secrets — never commit these
+.env
+*.env
+
+# Resume — contains personal info
+resume.pdf
+*.pdf
+
+# Auto-generated files
+job_history.csv
+jobs_*.html
+jobs_*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

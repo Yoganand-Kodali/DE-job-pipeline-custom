@@ -1,0 +1,6 @@
+requests
+cloudscraper
+pandas
+pdfminer.six
+beautifulsoup4
+python-dotenv
